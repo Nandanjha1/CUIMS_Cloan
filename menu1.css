@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	position: relative;
+	height: 100vh;
+	background-image: linear-gradient(to bottom, Lightgrey 0%, lightgrey 50%, red 50%, red 100%);
+}
+.main #imgcu{
+	position: absolute;
+	top: 90px;
+	left: 600px;
+}
+.box {
+	background-color: white;
+	margin-top: 100px;
+	padding: 30px;
+	width: 270px;
+	border-radius: 20px;
+	height: 300px;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	gap: 15px;
+}
+.box button{
+	background-color: red;
+	padding: 10px 30px;
+	border: none;
+	border-radius: 20px;
+	color: white;
+	flex-direction: row;
+}
+a:link {
+	text-decoration: none;
+}
+div button:hover {
+	background-color: black;
+}
+a {
+	color: white;	
+}
